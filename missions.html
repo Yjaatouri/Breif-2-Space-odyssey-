@@ -1,11 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Missions</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-top">
+          <div class="nav-brand">
+            <div class="logo">
+              <img src="https://via.placeholder.com/50" alt="Logo" />
+            </div>
+          </div>
+          <div class="nav-right">
+            <div class="search-box">
+              <input type="text" placeholder="Search..." />
+              <i class="fas fa-search"></i>
+            </div>
+            <select class="language-select">
+              <option>English</option>
+              <option>Français</option>
+            </select>
+            <div class="notification">
+              <i class="fas fa-bell"></i>
+              <span class="badge">2</span>
+            </div>
+            <div class="profile">
+              <img
+                src="C:\Users\safiy\Desktop\Brief 2 Space Odyssey\Space oddysssey images\unsplash_crygQ7In_FE.png"
+                alt="Profile"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav-bottom">
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-behance"></i></a>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">A propos</a></li>
+          <li><a href="planets.html">Planets</a></li>
+          <li><a href="missions.html" class="active">Missions Spatiales</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#contact" class="btn-contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="missions-section">
+      <!-- Row 1 -->
+      <div class="mission-row">
+        <div class="mission-card">
+          <img src="apollo11.jpg" alt="Apollo 11" />
+          <div class="mission-content">
+            <h3 class="mission-title">Apollo 11</h3>
+            <div class="mission-org">🚀 NASA</div>
+            <p class="mission-desc">
+              Première mission habitée à atterrir sur la Lune.
+            </p>
+            <div class="mission-date">📅 16 juillet 1969</div>
+          </div>
+        </div>
+        <div class="mission-card"></div>
+        <div class="mission-card"></div>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="mission-row">
+        <div class="mission-card"></div>
+        <div class="mission-card"></div>
+        <div class="mission-card"></div>
+      </div>
+
+      <!-- Row 3 -->
+      <div class="mission-row">
+        <div class="mission-card"></div>
+        <div class="mission-card"></div>
+        <div class="mission-card"></div>
+      </div>
+    </section>
+  </body>
 </html>

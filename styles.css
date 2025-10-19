@@ -1472,6 +1472,7 @@ footer {
   gap: 20px; /* space between cards */
 }
 .planet-card {
+  height: 500px;
   width: 300px;
   background: #ffffff;
   border-radius: 14px;
@@ -1521,32 +1522,98 @@ footer {
   font-weight: bold;
   color: #000;
 }
-.Phead{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    margin-top: 60px;
-    margin-left: 145px;
-    height: 27em;
-    width: 80em;
-    background-image: url(planets/head.png);
+.Phead {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-top: 60px;
+  margin-left: 145px;
+  height: 27em;
+  width: 80em;
+  background-image: url(planets/head.png);
 }
-.ht{
-    font-family : poppin, serif;
-    font-size: 28px;
-    margin-left: 30em;
-    margin-top: 7em;
-    color: white;
+.ht {
+  font-family: poppin, serif;
+  font-size: 28px;
+  margin-left: 30em;
+  margin-top: 7em;
+  color: white;
 }
-.Greysection{
-    display: grid;
-    text-align: center;
-    justify-content: center;
-    background-color: #cfcfcf;
-    height: 400px;
-    width: 1440;
+.Greysection {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  background-color: #cfcfcf;
+  height: 400px;
+  width: 1440;
+}
+.GSt {
+  color: grey;
+}
+.missions-section {
+  margin-top: 97px;
+  margin-left: 177px;
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 40px 20px;
+  display: grid;
+  justify-content: center;
+}
 
+.mission-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
 }
-.GSt{
-    color: grey;
+
+.mission-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.mission-card:hover {
+  transform: translateY(-4px);
+}
+
+.mission-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.mission-content {
+  padding: 16px 20px;
+}
+
+.mission-title {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.mission-org {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.mission-desc {
+  font-size: 14px;
+  color: #374151;
+  margin-bottom: 12px;
+}
+
+.mission-date {
+  font-size: 13px;
+  color: #6b7280;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
