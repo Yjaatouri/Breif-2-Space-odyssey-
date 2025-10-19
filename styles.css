@@ -1679,3 +1679,38 @@ footer {
   line-height: 1.5;
   font-size: 0.95rem;
 }
+.Apropos{
+  background-image: url(Apropos/Solar\ System\ Poster\ \ 1.png);
+  display: grid;
+  background-repeat: round;
+  height: 60em;
+  text-align: center;
+}
+.Ahead{
+  margin-left: 8em;
+  color: white;
+  position: absolute;
+  font-size: 77px;
+}
+.Ap{
+  margin-bottom: -21px;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    margin-left: 28em;
+    margin-top: 16em;
+}
+.Af{
+  color: white;
+      color: white;
+    position: absolute;
+    margin-left: 27em;
+    margin-top: 37em;
+    margin-right: 134em;
+    font-size: 25px;
+}
+.ostman{
+   position: absolute;
+    margin-left: 9em;
+    margin-top: 52em;
+}
